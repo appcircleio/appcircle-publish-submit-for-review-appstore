@@ -15,7 +15,7 @@
       echo "appleStoreSubmitApiType:$AC_APPLE_STORE_SUBMIT_API_TYPE"
       
       locale
-      curl -o "./$AC_APP_FILE_NAME" -k $AC_APP_FILE_URL
+      curl -o "./$AC_APP_FILE_NAME" -k "$AC_APP_FILE_URL"
 
         bundle init
         echo "gem \"fastlane\"">>Gemfile
